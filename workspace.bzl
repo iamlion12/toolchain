@@ -14,7 +14,7 @@ def repositories():
         build_file = str(Label("//:crosstool_ng/linux_arm_64v8.BUILD")),
         sha256 = "36aaa12c33fdea55461b44e578776eccae6ab397653f2e94883551385c562dbb",
         strip_prefix = "aarch64-unknown-linux-gnu/",
-        url = "http://cloud.ine.ru/s/rcXJJ5X4Q3qRfP3/download",
+        url = "https://github.com/iamlion12/plaidml_tc/blob/master/aarch64-unknown-linux-gnu.tgz?raw=true",
     )
 
     http_archive(
