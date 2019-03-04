@@ -12,9 +12,9 @@ def repositories():
     http_archive(
         name = "crosstool_ng_linux_arm_64v8",
         build_file = str(Label("//:crosstool_ng/linux_arm_64v8.BUILD")),
-        sha256 = "fcacd0a8998da3717554e2182a974a5eef9e6ba5141de5119f067c17a02ba182",
+        sha256 = "36aaa12c33fdea55461b44e578776eccae6ab397653f2e94883551385c562dbb",
         strip_prefix = "aarch64-unknown-linux-gnu/",
-        url = "http://cloud.ine.ru/s/rcXJJ5X4Q3qRfP3",
+        url = "http://cloud.ine.ru/s/rcXJJ5X4Q3qRfP3/download",
     )
 
     http_archive(
